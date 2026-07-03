@@ -10,7 +10,7 @@ export default function Portfolio() {
     <main className="min-h-screen bg-background text-foreground">
       <Header />
       {/* Hero Section */}
-      <section id="home" className="relative flex flex-col lg:flex-row items-center justify-between min-h-screen px-4 sm:px-6 lg:px-12 py-16 md:py-20 mt-16 overflow-hidden gap-2 sm:gap-4 md:gap-8 lg:gap-16">
+      <section id="home" className="relative flex flex-col lg:flex-row items-center justify-between lg:min-h-screen px-4 sm:px-6 lg:px-12 py-8 md:py-20 mt-16 overflow-hidden gap-0 lg:gap-16">
         {/* Background Pattern */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/5 via-background to-background opacity-40" />
@@ -19,7 +19,7 @@ export default function Portfolio() {
         </div>
 
         {/* Profile Image - Visible on all sizes */}
-        <div className="relative flex flex-shrink-0 lg:w-2/5 items-center justify-center mb-1 sm:mb-3 md:mb-6 lg:mb-0">
+        <div className="relative flex flex-shrink-0 lg:w-2/5 items-center justify-center mb-0 lg:mb-0">
           <div className="relative">
             {/* Glow effect */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/40 to-transparent opacity-100 blur-3xl scale-105 hidden sm:block" />
